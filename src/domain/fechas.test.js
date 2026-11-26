@@ -1,3 +1,4 @@
+import { diasEntre, sumarDias, formatoFecha } from './fechas.js'
 describe('fechas', () => {
     it('cuenta los días entre dos fechas', () => {
       expect(diasEntre('2026-11-18', '2026-11-23')).toBe(5)

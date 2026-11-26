@@ -1,5 +1,5 @@
-import { crearSeed } from '../data/seed.js'
-import { prestamosActivos } from './prestamos.js'
+import { crearSeed } from './data/seed.js'
+import { prestamosActivos } from './domain/prestamos.js'
 
 const hoy = '2026-11-18'
 
